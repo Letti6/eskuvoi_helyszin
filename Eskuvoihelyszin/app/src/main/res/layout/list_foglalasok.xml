@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="8dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_blue">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/foglalas_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/foglalas_adatok"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_venue_name"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/venue_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/venue_name"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_user_name"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_name"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_user_email"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/user_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_email"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_foglalas_date"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/foglalas_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/foglalas_date"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_user_tel"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/phonenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_tel"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phonenumber"
+            android:backgroundTint="@color/pink"
+            android:layout_marginTop="10dp"
+            android:text="@string/delete" />
+
+    </TableLayout>
+
+</androidx.cardview.widget.CardView>

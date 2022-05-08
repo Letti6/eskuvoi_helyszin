@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Eskuvoi helyszin</string>
+    <string name="slogen">A nagy nap!</string>
+    <string name="fullname">Név</string>
+    <string name="password">Jelszó</string>
+    <string name="password2">Jelszó (min. 6 karakter)</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="venues">Helyszinek</string>
+    <string name="reg">Regisztráció</string>
+    <string name="password_again">Jelszó újra (min. 6 karakter)</string>
+    <string name="email">E-mail cím</string>
+    <string name="tel_number">Telefonszám</string>
+    <string name="back">Vissza</string>
+    <string name="adatok">Ügyfél adatok</string>
+    <string name="venue_name">Helyszin név</string>
+    <string name="city">Város</string>
+    <string name="price">ÁR</string>
+    <string name="visit">Megtekint</string>
+    <string name="lefoglal">Lefoglal</string>
+    <string name="date">Dátum</string>
+    <string name="profil">Profil beállítások</string>
+    <string name="new_password">Új Jelszó (min. 6 karakter)</string>
+    <string name="new_password_again">Új jelszó újra (min. 6 karakter)</string>
+    <string name="update">Módosít</string>
+    <string name="empty">Nincs leadott foglalás!</string>
+    <string name="camera">Kép módosítása</string>
+    <string name="cancel">Mégse</string>
+    <string name="update_name">Név módostása</string>
+    <string name="update_password">Jelszó módosítása</string>
+    <string name="info">Info</string>
+    <string name="foglalas_adatok">Foglalás adatok</string>
+    <string name="_user_name">Ügyfél név:</string>
+    <string name="user_name">Ügyfél név</string>
+    <string name="_user_email">Ügyfél email cím:</string>
+    <string name="user_email">Ügyfél email cím</string>
+    <string name="_foglalas_date">Foglalás időpont:</string>
+    <string name="foglalas_date">Foglalás időpont</string>
+    <string name="_user_tel">Ügyfél telefonszám:</string>
+    <string name="user_tel">Ügyfél telefonszám</string>
+    <string name="delete">Törlés</string>
+    <string name="_venue_name">Helyszin név:</string>
+    <string name="search">Keresés</string>
+    <string name="home">Főoldal</string>
+    <string name="update_profile">Profil beállítások</string>
+    <string name="foglalasok">Foglalások</string>
+    <string name="log_out">Kijelentkezés</string>
+
+    <string-array name="venue_item_names">
+        <item>Belváros</item>
+        <item>Mindent bele rendezvényház</item>
+        <item>Mondj igent étterem</item>
+        <item>Egy hajóban evezünk</item>
+        <item>Násznép kastély</item>
+    </string-array>
+
+    <string-array name="venue_item_city">
+        <item>Debrecen</item>
+        <item>Kecskemét</item>
+        <item>Székesfehérvár</item>
+        <item>Budapest</item>
+        <item>Veszprém</item>
+    </string-array>
+
+    <string-array name="venue_item_infos">
+        <item>Szabad térben van.</item>
+        <item>Bármelyik évszakban, időjárástól függetlenül alkalmas.</item>
+        <item>Bármelyik évszakban, időjárástól függetlenül alkalmas.</item>
+        <item>Romantikus környezet.</item>
+        <item>Bármelyik évszakban, időjárástól függetlenül alkalmas.</item>
+    </string-array>
+
+    <string-array name="venue_item_prices">
+        <item>100.000 Ft/nap</item>
+        <item>120.000 Ft/nap</item>
+        <item>150.000 Ft/nap</item>
+        <item>200.000 Ft/nap</item>
+        <item>350.000 Ft/nap</item>
+    </string-array>
+
+    <array name="venue_item_kepek">
+        <item>@drawable/elso</item>
+        <item>@drawable/masodik</item>
+        <item>@drawable/harmadik</item>
+        <item>@drawable/negyedik</item>
+        <item>@drawable/otodik</item>
+    </array>
+</resources>
